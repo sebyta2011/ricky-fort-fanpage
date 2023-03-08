@@ -148,7 +148,7 @@ img {
 }
 
 .fourth-container{
-    background-color: #3882f6;
+    background-color: white;
     display:flex;
     flex: 1 0 auto;
     padding: 10px;
@@ -159,9 +159,12 @@ img {
 .box {
     display:flex;
     color: beige;
+    background-color: #3882f6;
     gap: 10px;
+    padding: 30px;
     align-items: center;
     justify-content: center;
+    border-radius: 11px;
 }
 
 .button.last-button {
