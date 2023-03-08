@@ -75,3 +75,17 @@ a {
 img {
     width: 250px;
 }
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.c2-title {
+    justify-content: center;
+}
+
+.c2-image-container {
+    display:flex;
+}
