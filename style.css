@@ -34,8 +34,8 @@ a {
     justify-content: center;
     align-items:center;
     padding: 30px;
-    background-color: #5e5656;
-    gap: 40px;
+    background-color: #443f3f;
+    gap: 70px;
 }
 
 .c1-content {
@@ -43,6 +43,26 @@ a {
     flex-direction: column;
     color: beige;
     width: 400px;
+}
+
+.c1-title {
+    font-size: 48px;
+}
+
+.c1-text {
+    font-size: 18px;
+}
+
+.first-button {
+    background-color: #3882f6;
+    color: beige;
+    border: none;
+    text-align: center;
+    width: 100px;
+    padding:8px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-weight: bolder;
 }
 
 .img-container {
