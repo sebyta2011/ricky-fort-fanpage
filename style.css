@@ -39,7 +39,7 @@ a {
     padding: 30px;
     background-color: #443f3f;
     gap: 70px;
-    flex: 1 1 auto;
+    flex: 0 1 auto;
 }
 
 .c1-content {
@@ -57,7 +57,7 @@ a {
     font-size: 18px;
 }
 
-.first-button {
+.button {
     background-color: #3882f6;
     color: beige;
     border: none;
@@ -84,7 +84,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex: 1 1 auto;
+    flex: 0 1 auto;
 }
 
 .c2-title {
@@ -145,4 +145,29 @@ img {
 
 .c3-autor {
     align-self: flex-end;
+}
+
+.fourth-container{
+    background-color: #3882f6;
+    display:flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display:flex;
+    color: beige;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button.last-button {
+    border: 2px solid beige;
+    margin: 0;
+}
+
+.c4-title {
+    font-weight: bolder;
 }
