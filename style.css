@@ -1,0 +1,38 @@
+body {
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display:flex;
+    background-color: #312e2e;
+    color: beige;
+    padding: 10px;
+    justify-content:space-around;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: beige;
+}
+
+.logo {
+    font-size: larger;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.header-links {
+    display:flex;
+    gap: 12px;
+}
+
+.first-container {
+    display: flex;
+}
+
+img {
+    max-width: 200px;
+}
