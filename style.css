@@ -39,7 +39,7 @@ a {
     padding: 30px;
     background-color: #443f3f;
     gap: 70px;
-    flex: 0 1 auto;
+    flex: 1 1 auto;
 }
 
 .c1-content {
@@ -150,7 +150,8 @@ img {
 .fourth-container{
     background-color: #3882f6;
     display:flex;
-    flex: 1;
+    flex: 1 0 auto;
+    padding: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -170,4 +171,14 @@ img {
 
 .c4-title {
     font-weight: bolder;
+}
+
+.footer {
+    display:flex;
+    flex: 0;
+    padding: 5px;
+    text-align:center;
+    justify-content: center;
+    background-color:#312e2e;
+    color: beige;
 }
